@@ -1,0 +1,276 @@
+#outer
+{
+height:auto;
+width:100%;
+background-color:lightgrey;
+}
+#menu
+{
+	height:90px;
+	width:100%;
+	border:1px solid white;
+	//background-image:url('heart-pulse-one-line-vector-450w-650080933.jpg');
+	background-color:white;
+	//opacity:0.6;
+	//overflow:hidden;
+	position:fixed;
+	transition:top 0.3s;
+	top:0;
+	z-index:99999;
+}
+#menu ul
+{
+	list-style-type:none;
+	//margin-top:-20px;
+	
+}
+#menu ul .col-sm-6 li
+{
+	margin-top:25px;
+	margin:auto;
+	margin-left:15px;
+	display:inline-block;
+	padding:25px 0px 10px 0px;
+	//border:1px solid;
+	//border-radius:25px;
+}
+#menu ul .col-sm-4 li
+{
+	margin-top:25px;
+	margin:auto;
+	margin-left:15px;
+	display:inline-block;
+	padding:25px 0px 10px 0px;
+	//border:1px solid;
+	//border-radius:25px;
+}
+#menu ul li a
+{
+	margin-top:25px;
+	font-size:22px;
+	text-decoration:underline;
+	color:black;
+	font-weight:bold;
+}
+#menu ul li a:hover
+{
+	background-color:white;
+	color:blue;
+	
+}
+#photo
+{
+	height:50px;
+	width:50px;
+	border:1px solid;
+	border-radius:50px;
+	//float:right;
+	//margin-right:50px;
+	//background-image:
+}
+#row1
+{
+	height:400px;
+	width:100%;
+	background-color:white;
+	margin-top:10px;
+}
+#epulseline
+{
+	height:400px;
+	width:400px;
+	margin-top:30px;
+
+	//margin-left:-700px;
+	//border-radius:50px;
+		//border:1px solid ;
+}
+#content1
+{
+	height:400px;
+	width:75%;
+	color:grey;
+	//border:1px solid white;
+	float:left;
+}
+#about
+{
+	height:400px;
+	width:100%;
+	//border:1px solid;
+	margin-top:60px;
+}
+#bhandari
+{
+	height:400px;
+	width:25%;
+	background-image:url('../images/Bhandari_Mahendra_6529.jpg');
+	background-size:100% 100%;
+	border-radius:20px;
+	float:left;
+}
+#content2 h1
+{
+	font-family:Goudy Stout;
+	margin-top:60px;
+}
+#content2
+{
+	height:400px;
+	width:75%;
+	border:1px solid lightgrey;
+	float:left;
+}
+#doctors
+{
+	height:460px;
+	width:100%;
+}
+.heading
+{
+	height:60px;
+	width:100%;
+	font-size:44px;
+	font-weight:700px;
+	font-family:cooper inherit ;
+	background-color:white;
+}
+.docs
+{
+	height:400px;
+	width:25%;
+	float:left;
+}
+.docs:hover
+{
+	background-color:white;
+	opacity:0.6;
+}
+#department
+{
+	height:770px;
+	width:100%;
+	background-color:white;
+}
+#left
+{
+	height:770px;
+	width:40%;
+	float:left;
+	background-image:url('../images/dept-1.jpg');
+	background-size:125% 100%;
+}
+#right
+{
+	height:710px;
+	width:60%;
+	float:left;
+}
+.dep1
+{
+	height:33.33%;
+	width:269px;
+	float:left;
+	border:1px solid lightgrey;
+}
+#right .dep1 span
+{
+	font-size:40px;
+	//color:#207dff;
+}
+#right .dep1 h2
+{
+	font-family:inherit;
+	color:black;
+	-webkit-transition:0.4s;
+	transition:0.4s;
+}
+#right .dep1 h4
+{
+	font-family:arial;
+	color:grey;
+	-webkit-transition:0.4s;
+	transition:0.4s;
+	word-spacing:10px;
+	margin:30px auto;
+	margin-left:10px auto;
+	-webkit-transition:0.4s;
+	transition:0.4s;
+}
+#department #right .dep1:hover 
+{
+	color:white;
+	background-color:#90caf9;
+}
+#footer
+{
+	height:600px;
+	width:100%;
+	border:1px solid white;
+	//background-image:url('images/footer-bg.jpg');
+	
+}
+.col
+{
+	height:500px;
+	width:20%;
+	float:left;
+	
+}
+.col h3
+{
+	margin-top:50px;
+	font-family:arial;
+	font-weight:bold;
+	margin-left:30px;
+}
+.col p
+{
+	margin-top:40px;
+	font-family:arial;
+	font-size:18px;
+	margin-left:50px;
+	color:grey;
+	
+}
+.col p a
+{
+	color:#4285F4;
+}
+#row4
+{
+	height:350px;
+	width:100%;
+	border:1px solid;
+}
+.counting
+{
+	height:350px;
+	width:25%;
+	//border:1px solid;
+	float:left;
+}
+#row4 span
+{
+	font-size:48px;
+	    font-weight: 700;
+		font-family:inherit;
+}
+#row4 h6
+{
+	font-size:22px;
+	    font-weight: 700;
+		font-family:inherit;
+		    line-height: 1.8;
+}
+#lfooter
+{
+	height:100px;
+	width:100%;
+	color:grey;
+	
+}
+#lfooter h5
+{
+	text-align:center;
+}

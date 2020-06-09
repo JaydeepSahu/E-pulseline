@@ -1,0 +1,42 @@
+<?php
+session_start();
+$_SESSION['patient'];
+if($_SESSION['patient']=="")
+{
+session_destroy();
+header("location:login.php");	
+}
+$who=$_REQUEST['a'];
+$email=$_REQUEST['email'];
+$password=$_REQUEST['password'];
+//echo $email,$password;
+include("connect.php");
+if($who=='Doctor')
+{
+	$query="select * from tbl_doctor where email='$email' and password='$password'";
+    $res=mysql_query($query);
+	if($row=mysql_fetch_array($res,MYSQL_BOTH))
+	{
+		$_SESSION['doctor']=$email;
+		header("location:dprofile.php");
+	}
+	else
+	{
+		header("location:login.php");
+	}
+}
+if($who=='Patient')
+{
+	$query="select * from tbl_patient where email='$email' and password='$password'";
+    $res=mysql_query($query);
+	if($row=mysql_fetch_array($res,MYSQL_BOTH))
+	{
+		$_SESSION['patient']=$email;
+		header("location:pprofile.php");
+	}
+	else
+	{
+		header("location:login.php");
+	}
+}
+?>

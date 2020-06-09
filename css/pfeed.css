@@ -1,0 +1,119 @@
+
+.sidebar 
+{
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:#3399FF;
+ // margin-top:-10px;
+  //opacity:0.5;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.sidebar a 
+{
+  display: block;
+ 
+  color: white;
+  padding: 16px;
+  font-size:18px;
+  font-weight:bold;
+  text-decoration: none;
+}
+.sidebar a.active 
+{
+  background-color:#3399FF;
+  
+  color: white;
+  font-size:20px;
+  padding:0px;
+}
+.sidebar a:hover:not(.active) 
+{
+  background-color:white;
+  color: #3399FF;
+  font-size:20px;
+}
+div.content 
+{
+  margin-left: 200px;
+  // padding: 1px 16px;
+  min-height:100%;
+   min-height:100%;
+  background-image:url('../images/david-van-dijk-3LTht2nxd34-unsplash.jpg');
+  background-size:100% 100%;
+}
+@media screen and (max-width: 700px) 
+{
+  .sidebar 
+  {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a 
+  {
+	  float: left;
+  }
+  div.content 
+  {
+	  height:100%;
+	width:100%;
+	  margin-left: 0;
+  }
+}
+@media screen and (max-width: 400px) 
+{
+  .sidebar a 
+  {
+    text-align: center;
+    float: none;
+  }
+}
+#outer
+{
+	height:100%;
+	width:100%;
+	border:0.3px solid blue;
+}
+#welcome
+{
+	height:57px;
+	width:100%;
+	 margin-top:-10px;
+	background-color:#3399FF;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+	position:fixed;
+}
+table
+{
+	border:2px solid;
+	cellspacing:90px;
+}
+th, td {
+  padding-left: 25px;
+  text-align: left;
+}
+th
+{
+	background-color:#FF6342;
+}
+tr:nth-child(even) 
+{
+	background-color: #99CCFF;
+}
+tr:nth-child(odd) 
+{
+	background-color: #F9C694;
+}
+tr:hover 
+{
+	background-color: #CCCCCC;
+}
+.col-sm-6
+{
+	margin-left:-50px;
+}

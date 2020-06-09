@@ -1,0 +1,172 @@
+.formcontrol
+{
+	border: 1px solid grey;
+    height: 35px;
+	width:300px;
+    padding-left:15px;
+    padding-right: 15px;
+    background: #fff ;
+    color: blue;
+    font-size: 16px;
+    border-radius: 30px;
+	//display:block;
+	outline:none;
+	margin:5px auto;
+}
+span a
+{
+	font-family:inherit;
+	font-size:20px;
+	text-decoration:none;
+}
+#doc
+{
+	height:100%;
+	width:100%;
+	//background-image:url('../images/download(6).jpg');
+	//background-size:100% 100%;
+	border:1px solid white;
+	margin-top:90px;
+}
+#doc h1
+{
+	font-family:coomer;
+	color:red;
+	margin-top:-40px;
+}
+#menu
+{
+	height:90px;
+	width:100%;
+	border:1px solid white;
+	//background-image:url('heart-pulse-one-line-vector-450w-650080933.jpg');
+	background-color:white;
+	//opacity:0.6;
+	overflow:hidden;
+	position:fixed;
+	transition:top 0.3s;
+	top:0;
+	z-index:99999;
+}
+#menu ul
+{
+	list-style-type:none;
+	//margin-top:25px;
+	
+}
+#menu ul .col-sm-6 li
+{
+	margin-top:25px;
+	margin:auto;
+	margin-left:15px;
+	display:inline-block;
+	padding:25px 0px 10px 0px;
+	//border:1px solid;
+	//border-radius:25px;
+}
+#menu ul .col-sm-4 li
+{
+	margin-top:25px;
+	margin:auto;
+	margin-left:15px;
+	display:inline-block;
+	padding:25px 0px 10px 0px;
+	//border:1px solid;
+	//border-radius:25px;
+}
+#menu ul li a
+{
+	margin-top:25px;
+	font-size:22px;
+	text-decoration:underline;
+	color:black;
+	font-weight:bold;
+}
+#menu ul li a:hover
+{
+	background-color:white;
+	color:blue;
+	
+}
+#photo
+{
+	height:50px;
+	width:50px;
+	border:1px solid;
+	border-radius:50px;
+	//float:right;
+	//margin-right:50px;
+	//background-image:
+}
+#footer
+{
+	height:600px;
+	width:100%;
+	border:1px solid white;
+	//background-image:url('images/footer-bg.jpg');
+	
+}
+.col
+{
+	height:500px;
+	width:20%;
+	float:left;
+	
+}
+.col h3
+{
+	margin-top:50px;
+	font-family:arial;
+	font-weight:bold;
+	margin-left:30px;
+}
+.col p
+{
+	margin-top:40px;
+	font-family:arial;
+	font-size:18px;
+	margin-left:50px;
+	color:grey;
+	
+}
+.col p a
+{
+	color:#4285F4;
+}
+#row4
+{
+	height:350px;
+	width:100%;
+	border:1px solid;
+}
+.counting
+{
+	height:350px;
+	width:25%;
+	//border:1px solid;
+	float:left;
+}
+#row4 span
+{
+	font-size:48px;
+	    font-weight: 700;
+		font-family:inherit;
+}
+#row4 h6
+{
+	font-size:22px;
+	    font-weight: 700;
+		font-family:inherit;
+		    line-height: 1.8;
+}
+#lfooter
+{
+	height:100px;
+	width:100%;
+	color:grey;
+	
+}
+#lfooter h5
+{
+	text-align:center;
+}

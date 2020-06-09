@@ -1,0 +1,42 @@
+<?php
+session_start();
+$_SESSION['patient'];
+if($_SESSION['patient']=="")
+{
+session_destroy();
+header("location:oops.php");	
+}
+$op=$_POST['op'];
+$np=$_POST['np'];
+$cp=$_POST['cp'];
+$email=$_SESSION['patient'];
+include("connect.php");
+$query="select password from tbl_patient where email='$email'";
+$res=mysql_query($query);
+if($row=mysql_fetch_array($res,MYSQL_BOTH))
+{
+	$pp=$row['password'];
+}
+if($pp==$op)
+{
+	if($op==$np)
+	{
+		header("location:pchange.php");
+	}
+	else if($np==$cp)
+	{
+		$query2="update tbl_patient set password='$cp' where email='$email'";
+		mysql_query($query2);
+		session_destroy();
+		header("location:login.php?msg=2");
+	}
+	else
+	{
+		header("location:pchange.php");
+	}
+}
+else
+{
+	header("location:pchange.php");
+}
+?>

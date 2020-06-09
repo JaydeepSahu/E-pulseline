@@ -1,0 +1,105 @@
+body
+{
+	
+}
+.sidebar 
+{
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:#3399FF;
+  //opacity:0.5;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.sidebar a 
+{
+  display: block;
+  color: white;
+  padding: 16px;
+  font-size:16px;
+  font-weight:bold;
+  text-decoration: none;
+}
+.sidebar a.active 
+{
+  background-color:#3399FF;
+  color:white;
+  font-size:16px;
+  padding:0px;
+ // margin-top:5px;
+}
+.sidebar a:hover:not(.active) 
+{
+  background-color:white;
+  color: blue;
+  font-size:18px;
+}
+div.content 
+{
+  margin-left: 200px;
+  // padding: 1px 16px;
+  height:auto;
+}
+@media screen and (max-width: 700px) 
+{
+  .sidebar 
+  {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a 
+  {
+	  float: left;
+  }
+  div.content 
+  {
+	  margin-left: 0;
+	  //
+	 
+  }
+}
+
+
+@media screen and (max-width: 400px) 
+{
+  .sidebar a 
+  {
+    text-align: center;
+    float: none;
+  }
+}
+#outer
+{
+	height:auto;
+	width:100%;
+	//border:0.3px solid blue;
+	//background-color:#B3E5FC;
+	background-image:url('../images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg');
+	height:90%;
+	 background-size:100% 100%;
+}
+#welcome
+{
+	height:57px;
+	width:100%;
+	background-color:#3399FF;
+	font-weight:bold;
+}
+//.col-sm-12 h1
+{
+	color:red;
+	font-size:30px;
+	font-family:cooper;
+	line-height:3;
+}
+.col-sm-6 panel
+{
+	background-color:#64B5F6;
+}
+#ab
+{
+	background-color:#64B5F6;
+}

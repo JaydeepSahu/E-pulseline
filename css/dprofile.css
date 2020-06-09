@@ -1,0 +1,184 @@
+.sidebar 
+{
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:#3399FF;
+  //opacity:0.5;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.sidebar a 
+{
+  display: block;
+  color: white;
+  padding: 16px;
+  font-size:16px;
+  font-weight:bold;
+  text-decoration: none;
+}
+.sidebar a.active 
+{
+  background-color:#3399FF;
+  color:white;
+  font-size:16px;
+  padding:0px;
+ // margin-top:5px;
+}
+.sidebar a:hover:not(.active) 
+{
+  background-color:white;
+  color: blue;
+  font-size:18px;
+}
+div.content 
+{
+  margin-left: 200px;
+  // padding: 1px 16px;
+  height:auto;
+  background-color:rgba(255,255,0,0.2);
+}
+@media screen and (max-width: 700px) 
+{
+  .sidebar 
+  {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a 
+  {
+	  float: left;
+  }
+  div.content 
+  {
+	  margin-left: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) 
+{
+  .sidebar a 
+  {
+    text-align: center;
+    float: none;
+  }
+}
+//#outer
+{
+	height:auto;
+	width:100%;
+	border:0.3px solid blue;
+	background-color:#B3E5FC;
+}
+#welcome
+{
+	height:57px;
+	width:100%;
+	background-color:#3399FF;
+	font-weight:bold;
+	position:fixed;
+	z-index:99999;
+}
+#home
+{
+	height:300px;
+	width:100%;
+	//background-image:url('.../images/bg_3.jpg');
+	background-size:10% 100%;
+	background-attachment:fixed;
+}
+//#home2
+{
+	height:300px;
+	width:100%;
+	background-color:blue;
+	background-size:100% 100%;
+	opacity:0.5;
+	margin-top:-300px;
+	border:1px solid;
+}
+#dp
+{
+	height:200px;
+	width:200px;
+	border:1px solid;
+	margin:0px auto;
+	border-radius:100px;
+	margin-top:-115px;
+}
+span
+{
+	font-family:inherit;
+	font-weight:bold;
+	font-size:30px;
+	color:white;
+	margin-top:90px;
+}
+#footer
+{
+	height:500px;
+	width:100%;
+	border:1px solid white;
+	//background-image:url('images/footer-bg.jpg');
+	
+}
+.col
+{
+	height:400px;
+	width:20%;
+	float:left;
+	
+}
+.col h3
+{
+	margin-top:50px;
+	font-family:arial;
+	font-weight:bold;
+	margin-left:30px;
+}
+.col p
+{
+	margin-top:40px;
+	font-family:arial;
+	font-size:20px;
+	margin-left:50px;
+	color:grey;
+	
+}
+.col p a
+{
+	color:#4285F4;
+}
+#row4
+{
+	height:500px;
+	width:100%;
+	border:1px solid;
+}
+#row4 span
+{
+	font-size:48px;
+	    font-weight: 700;
+		font-family:inherit;
+}
+#row4 h6
+{
+	font-size:22px;
+	    font-weight: 700;
+		font-family:inherit;
+		    line-height: 1.8;
+}
+#lfooter
+{
+	height:100px;
+	width:100%;
+	color:grey;
+	
+}
+#lfooter h5
+{
+	text-align:center;
+}
